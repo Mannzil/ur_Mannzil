@@ -22,5 +22,5 @@ my_integer_var = 10
 print(type(my_integer_var))
 developer = 'Mannzil'
 print(type(developer))
-Super_Saiyan = 'Goku'
-print(isinstance(Super_Saiyan, str))
+
+
