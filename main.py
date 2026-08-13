@@ -48,5 +48,31 @@ name_and_age = f'My name is {name} and I am {age} years old.'
 print(name_and_age)
 str = 'Bankai'
 print(str[::-1])
+my_str = 'idle transfiguration'
+uppercase_my_str = my_str.upper()
+print(uppercase_my_str)
+my_str = 'mui tempen'
+replace_my_str = my_str.replace('mui' , 'mugen')
+print(replace_my_str)
+my_str = 'Muzan Kibutsuji'
+world_index = my_str.find('Kibutsuji')
+print(world_index)
+my_str = 'Ayanokoji senpai'
+title_case_my_str = my_str.title()
+print(title_case_my_str)
+first_name = 'John'
+last_name = 'Doe'
+full_name = first_name + ' ' + last_name
+address = '123 Main Street'
+address += ', Apartment 4B'
+employee_age = 28
+employee_info = full_name + ' is ' + str(employee_age) + ' years old'
+print(employee_info)
+experience_years = 5
+experience_info = 'Experience: ' + str(experience_years) + ' years'
+print(experience_info)
+
+employee_card = f'Employee: {full_name} | Age: {employee_age}'
+
 
 
