@@ -124,3 +124,22 @@ print('Bill per person:', final_bill)
 round(final_bill,2)
 each_pays = round(final_bill, 2)
 print('Each person pays:', each_pays)
+
+
+Power_Level = 3000000
+if Power_Level >= 3000000:
+    print('You are a Super Saiyan God')
+Pure_Soul = 1000000
+if Pure_Soul >= 1000000:
+    print('You are a Super Saiyan Blue')
+else:
+    print('You are a Super Saiyan')
+age = 3
+if age >= 18:
+    print('You are an adult')
+elif age >= 13:
+    print('You are a teenager')
+elif age >= 2:
+    print('You are a child')
+else:
+    print('You are a young adult')
