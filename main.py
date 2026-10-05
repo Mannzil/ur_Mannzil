@@ -202,3 +202,36 @@ if age >= 21 or age >= 18 and (show_time != 'Evening' or is_member):
     print('Final price of ticket:', final_price)
 else:
     print('Ticket booking failed due to restrictions')        
+
+is_student = True
+Age = 34
+if is_student:
+    if Age >= 17:
+     print('You are a Saiyan')
+else:
+    print('You are Weak')        
+print(bool(99))
+print(bool(""))
+
+      #Build a Travel Weather Planner
+distance_mi = 1
+is_raining = False
+has_bike = True
+has_car = False
+has_ride_share_app = True
+if not distance_mi:
+    print(False)
+elif distance_mi <= 1 and not is_raining:
+    print(True)
+elif distance_mi <= 1 and is_raining:
+    print(False)
+elif 1 < distance_mi <= 6 and not is_raining and has_bike:
+    print(True)
+elif 1 < distance_mi <= 6 and (is_raining or not has_bike):
+    print(False)
+elif distance_mi > 6 and (has_car or has_ride_share_app):
+    print(True)
+else:
+    print(False)
+
+      
